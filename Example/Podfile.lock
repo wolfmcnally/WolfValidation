@@ -1,0 +1,62 @@
+PODS:
+  - ExtensibleEnumeratedName (1.0.1)
+  - WolfConcurrency (1.0):
+    - WolfFoundation
+    - WolfLog
+    - WolfNumerics
+  - WolfFoundation (1.0):
+    - WolfNumerics
+    - WolfPipe
+    - WolfStrings
+  - WolfLocale (1.0.1):
+    - ExtensibleEnumeratedName
+    - WolfLog
+    - WolfStrings
+  - WolfLog (1.0.1):
+    - ExtensibleEnumeratedName
+    - WolfNumerics
+    - WolfStrings
+  - WolfNumerics (1.0.1)
+  - WolfPipe (1.0.1)
+  - WolfStrings (1.0.1):
+    - ExtensibleEnumeratedName
+    - WolfNumerics
+    - WolfPipe
+  - WolfValidation (1.0):
+    - WolfConcurrency
+    - WolfFoundation
+    - WolfLocale
+    - WolfStrings
+
+DEPENDENCIES:
+  - WolfValidation (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ExtensibleEnumeratedName
+    - WolfConcurrency
+    - WolfFoundation
+    - WolfLocale
+    - WolfLog
+    - WolfNumerics
+    - WolfPipe
+    - WolfStrings
+
+EXTERNAL SOURCES:
+  WolfValidation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ExtensibleEnumeratedName: 70c35288c7e34eff64b4b1da8b0c6e993013738b
+  WolfConcurrency: 6441a2ee3487398b02f78fc87b52659972cbbbb8
+  WolfFoundation: 90959f037de362da543adfdbe347f79c28e7f0db
+  WolfLocale: b70f1b375fa37a70f9ec4152db3f656e0dec12e6
+  WolfLog: e6e60ea7593e9fb1962d319a6bc190045f4f1e6e
+  WolfNumerics: 47d911caaf5350fc838b638ca47a5427b676d275
+  WolfPipe: 7ddf803ae6bc9d42d34120bcce43d25940e3c791
+  WolfStrings: 0691ee5c7aae7c040a6552ca97ddfa510ecccf88
+  WolfValidation: a64aa9d53b2e99589db9fc0812089aa928adf562
+
+PODFILE CHECKSUM: 55cb08fbb259e12d81e1645aa90a7aadb31c446a
+
+COCOAPODS: 1.6.0.beta.1
