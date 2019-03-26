@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfValidation'
-    s.version          = '1.0.1'
+    s.version          = '2.0.0'
     s.summary          = 'Framework for validating user-entered data including phone numbers and email addresses.'
 
     s.homepage         = 'https://github.com/wolfmcnally/WolfValidation'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author           = { 'Wolf McNally' => 'wolf@wolfmcnally.com' }
     s.source           = { :git => 'https://github.com/wolfmcnally/WolfValidation.git', :tag => s.version.to_s }
 
-    s.swift_version = '4.2'
+    s.swift_version = '5.0'
 
     s.source_files = 'WolfValidation/Classes/**/*'
 

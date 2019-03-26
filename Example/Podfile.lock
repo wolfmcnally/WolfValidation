@@ -1,31 +1,35 @@
 PODS:
-  - ExtensibleEnumeratedName (1.0.3)
-  - WolfConcurrency (1.1.2):
+  - ExtensibleEnumeratedName (2.0)
+  - WolfConcurrency (1.1.3):
     - WolfFoundation
     - WolfLog
     - WolfNumerics
-  - WolfFoundation (2.0.0):
+  - WolfFoundation (3.0.0):
     - WolfNumerics
     - WolfPipe
-  - WolfLocale (1.0.2):
+  - WolfLocale (2.0.0):
     - ExtensibleEnumeratedName
     - WolfLog
     - WolfStrings
-  - WolfLog (1.0.2):
+  - WolfLog (2.0.0):
     - ExtensibleEnumeratedName
     - WolfNumerics
     - WolfStrings
-  - WolfNumerics (2.0.3)
-  - WolfPipe (1.0.7)
-  - WolfStrings (1.1):
+  - WolfNumerics (4.0)
+  - WolfOSBridge (2.0.0)
+  - WolfPipe (2.0.0)
+  - WolfStrings (2.0.0):
     - ExtensibleEnumeratedName
     - WolfNumerics
+    - WolfOSBridge
     - WolfPipe
-  - WolfValidation (1.0.1):
+    - WolfWith
+  - WolfValidation (2.0.0):
     - WolfConcurrency
     - WolfFoundation
     - WolfLocale
     - WolfStrings
+  - WolfWith (2.0.1)
 
 DEPENDENCIES:
   - WolfValidation (from `../`)
@@ -38,24 +42,28 @@ SPEC REPOS:
     - WolfLocale
     - WolfLog
     - WolfNumerics
+    - WolfOSBridge
     - WolfPipe
     - WolfStrings
+    - WolfWith
 
 EXTERNAL SOURCES:
   WolfValidation:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ExtensibleEnumeratedName: c6caeb662f79105e7229a613f9043e8a7e15e642
-  WolfConcurrency: 47b03b9c2e35dc663b56970777a2b7368821a412
-  WolfFoundation: 667429024146bfa45f76899aea3eea1398ff9581
-  WolfLocale: cc7921bc5d24c5e792603e7732c476385f969176
-  WolfLog: 6329a08de6c099ca6ccea857127d9df2f74dfea3
-  WolfNumerics: 662ffe98065f811bd8ef5e9d27a5dcc0c321beb3
-  WolfPipe: 1a2cbb23efb14833647a2adcc034468bf82a289e
-  WolfStrings: 4d4a57c861a0d0c47d39d506131615d5b058373f
-  WolfValidation: 98de1a30cf82dd799ece06516e6850209b124220
+  ExtensibleEnumeratedName: 50f2d256f6d56baecf681f6fbb6362343dcf885b
+  WolfConcurrency: e2f17139a61ab6b26ea63e31f9c73ebe55295b18
+  WolfFoundation: df7514e9faf208f591f02cb156ddb537e2a14958
+  WolfLocale: cb8a9870ff13e1b3576d300af7c2057ba6aaaf28
+  WolfLog: b2f3483d6b69aaca1cd65c8e78cf84b20d5dbe50
+  WolfNumerics: 6a57756b668073414da8a6911b86781096aded37
+  WolfOSBridge: e9260681790a7c89f725e134c0c1d4172d2d2dc9
+  WolfPipe: 18ffb77a188263392893a62630defc2a5b92b4f3
+  WolfStrings: edc63c08fbd1149ccbf5eca5020b13465084513b
+  WolfValidation: 4db80ce3f9d51c72950a732c4674aa17e52f21df
+  WolfWith: 2320a88a03a943df9ff1284c9cca10f86cb73c60
 
 PODFILE CHECKSUM: 55cb08fbb259e12d81e1645aa90a7aadb31c446a
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.7.0.beta.2
