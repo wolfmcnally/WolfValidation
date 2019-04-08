@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfValidation'
-    s.version          = '3.0.0'
+    s.version          = '3.0.1'
     s.summary          = 'Framework for validating user-entered data including phone numbers and email addresses.'
 
     s.homepage         = 'https://github.com/wolfmcnally/WolfValidation'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
     s.swift_version = '5.0'
 
-    s.source_files = 'WolfValidation/Classes/**/*'
+    s.source_files = 'Sources/WolfValidation/**/*'
 
     s.ios.deployment_target = '12.0'
     s.macos.deployment_target = '10.14'
@@ -18,9 +18,7 @@ Pod::Spec.new do |s|
 
     s.module_name = 'WolfValidation'
 
+    s.dependency 'WolfCore'
     s.dependency 'WolfLocale'
-    s.dependency 'WolfStrings'
-    s.dependency 'WolfFoundation'
-    s.dependency 'WolfConcurrency'
     s.dependency 'WolfNIO'
 end

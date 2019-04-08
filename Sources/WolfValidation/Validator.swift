@@ -23,7 +23,7 @@
 //  SOFTWARE.
 
 import Foundation
-import WolfConcurrency
+import WolfCore
 import WolfNIO
 
 open class Validator {
