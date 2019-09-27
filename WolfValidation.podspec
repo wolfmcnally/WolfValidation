@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfValidation'
-    s.version          = '3.0.1'
+    s.version          = '3.0.2'
     s.summary          = 'Framework for validating user-entered data including phone numbers and email addresses.'
 
     s.homepage         = 'https://github.com/wolfmcnally/WolfValidation'
