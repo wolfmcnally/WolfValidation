@@ -24,7 +24,7 @@
 
 import Foundation
 import WolfLocale
-import WolfCore
+import WolfFoundation
 
 open class UUIDValidator: Validator {
     public let isUppercase: Bool

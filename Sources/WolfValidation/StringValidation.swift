@@ -23,8 +23,9 @@
 //  SOFTWARE.
 
 import Foundation
-import WolfCore
 import WolfLocale
+import WolfFoundation
+import WolfStrings
 
 public struct StringValidation: Validation {
     public let value: String

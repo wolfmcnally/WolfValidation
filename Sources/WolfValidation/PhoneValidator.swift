@@ -23,7 +23,7 @@
 //  SOFTWARE.
 
 import WolfLocale
-import WolfCore
+import WolfFoundation
 
 open class PhoneValidator: Validator {
     public override init(name: String = "Email", isRequired: Bool = true) {

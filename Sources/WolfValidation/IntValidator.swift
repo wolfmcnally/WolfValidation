@@ -24,7 +24,7 @@
 
 import Foundation
 import WolfLocale
-import WolfCore
+import WolfFoundation
 
 open class IntValidator: Validator {
     public let validRange: CountableClosedRange<Int>
